@@ -1,146 +1,231 @@
-<!-- ===================== ANIMATED HEADER ===================== -->
+<!-- ======================== ANIMATED HEADER ======================== -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4E54C8,100:8F94FB&height=220&section=header&text=LAMBDA%20MOBILE%20TEST%20CASES%20(IOS)&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:1E3C72,100:2A5298&height=250&section=header&text=LAMBDA%20MOBILE%20TEST%20CASES%20(IOS)&fontSize=30&fontColor=ffffff&animation=fadeIn&fontAlignY=40"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&duration=3000&color=6C63FF&center=true&vCenter=true&width=900&lines=AI-GENERATED+IOS+TEST+AUTOMATION;EXECUTED+ON+LAMBDATEST+CLOUD;REAL+DEVICE+TESTING;APPIUM+BASED+AUTOMATION;POWERED+BY+KANEAi"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=1000&color=00C6FF&center=true&vCenter=true&width=950&lines=AI+POWERED+IOS+TEST+AUTOMATION;KANEAi+GENERATED+TEST+CASES;EXECUTED+ON+LAMBDATEST+CLOUD;REAL+DEVICE+TESTING;APPIUM+%7C+XCUITEST+%7C+CLOUD+AUTOMATION"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PLATFORM-iOS-blue?style=for-the-badge&logo=apple"/>
-  <img src="https://img.shields.io/badge/AUTOMATION-APPIUM-success?style=for-the-badge&logo=appium"/>
+  <img src="https://img.shields.io/badge/IOS-AUTOMATION-blue?style=for-the-badge&logo=apple"/>
+  <img src="https://img.shields.io/badge/APPIUM-FRAMEWORK-green?style=for-the-badge&logo=appium"/>
   <img src="https://img.shields.io/badge/CLOUD-LAMBDATEST-orange?style=for-the-badge&logo=cloud"/>
-  <img src="https://img.shields.io/badge/AI-KANEAI-purple?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/AI-KANEAi-purple?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/STATUS-ACTIVE-success?style=for-the-badge"/>
 </p>
 
 ---
 
-# PROJECT OVERVIEW
+# 📌 PROJECT DESCRIPTION
 
-THIS REPOSITORY CONTAINS AUTOMATED IOS APPLICATION TEST CASES GENERATED USING **KANEAi** AND EXECUTED ON THE **LAMBDATEST CLOUD PLATFORM**.
+```text
+THIS PROJECT CONTAINS AUTOMATED IOS TEST CASES
+GENERATED USING AI (KANEAi)
+AND EXECUTED ON LAMBDATEST CLOUD INFRASTRUCTURE.
 
-THE PROJECT VALIDATES CORE MOBILE APPLICATION FUNCTIONALITIES USING AI-ASSISTED TEST CREATION AND REAL-DEVICE CLOUD EXECUTION.
-
-IT DEMONSTRATES MODERN MOBILE TESTING PRACTICES INCLUDING CLOUD AUTOMATION, CROSS-DEVICE VALIDATION, AND STRUCTURED TEST EXECUTION.
-
----
-
-# KEY FEATURES
-
-- AI-GENERATED TEST CASES USING KANEAi  
-- AUTOMATED IOS APPLICATION TESTING  
-- CLOUD EXECUTION ON REAL IOS DEVICES  
-- APPIUM-BASED AUTOMATION FRAMEWORK  
-- XCUITEST INTEGRATION  
-- AUTOMATED TEST REPORTS AND LOGS  
-- SCALABLE CLOUD TESTING ARCHITECTURE  
+FOCUS:
+✔ CORE FUNCTIONAL VALIDATION
+✔ REAL DEVICE EXECUTION
+✔ CLOUD AUTOMATION
+✔ SCALABLE TEST ARCHITECTURE
+```
 
 ---
 
-# TESTING WORKFLOW
+# ⚙️ AUTOMATION ARCHITECTURE
 
-1. TEST CASES ARE GENERATED USING KANEAi.
-2. AUTOMATION SCRIPTS ARE CONFIGURED WITH APPIUM.
-3. LAMBDATEST CLOUD CAPABILITIES ARE SET.
-4. TESTS EXECUTE ON REAL IOS DEVICES.
-5. RESULTS AND REPORTS ARE GENERATED AUTOMATICALLY.
+```text
++-------------------+
+|   KANEAi ENGINE   |
+| (AI TEST GENERATOR)
++---------+---------+
+          |
+          v
++-------------------+
+|   APPIUM DRIVER   |
+|   (XCUITEST)      |
++---------+---------+
+          |
+          v
++-------------------+
+|  LAMBDATEST CLOUD |
+| REAL IOS DEVICES  |
++---------+---------+
+          |
+          v
++-------------------+
+| TEST REPORTS      |
+| LOGS + DASHBOARD  |
++-------------------+
+```
 
 ---
 
-# TECH STACK
+# 🚀 FEATURES
+
+```yaml
+AI_GENERATION: TRUE
+REAL_DEVICE_EXECUTION: ENABLED
+CLOUD_INFRASTRUCTURE: LAMBDATEST
+AUTOMATION_FRAMEWORK: APPIUM
+IOS_DRIVER: XCUITEST
+LANGUAGE_SUPPORT:
+  - PYTHON
+  - JAVA
+REPORTING: AUTOMATED
+SCALABILITY: HIGH
+```
+
+---
+
+# 🧠 TEST EXECUTION FLOW
+
+```bash
+# STEP 1 - GENERATE TESTS USING KANEAi
+kanesai generate ios_tests
+
+# STEP 2 - CONFIGURE CLOUD CAPABILITIES
+export LT_USERNAME="your_username"
+export LT_ACCESS_KEY="your_access_key"
+
+# STEP 3 - EXECUTE TESTS
+python tests/ios_test_cases.py
+
+# STEP 4 - VIEW REPORTS
+open reports/index.html
+```
+
+---
+
+# 🛠 TECH STACK
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,java" />
 </p>
 
-| TECHNOLOGY | ROLE |
-|------------|------|
-| KANEAi | AI TEST CASE GENERATION |
-| LAMBDATEST | CLOUD DEVICE EXECUTION |
-| APPIUM | MOBILE AUTOMATION FRAMEWORK |
-| XCUITEST | IOS AUTOMATION DRIVER |
-| PYTHON / JAVA | TEST SCRIPT IMPLEMENTATION |
+```json
+{
+  "AI_ENGINE": "KANEAi",
+  "CLOUD_PLATFORM": "LAMBDATEST",
+  "AUTOMATION_FRAMEWORK": "APPIUM",
+  "IOS_DRIVER": "XCUITEST",
+  "LANGUAGES": ["PYTHON", "JAVA"]
+}
+```
 
 ---
 
-# PROJECT STRUCTURE
+# 📂 PROJECT STRUCTURE
 
-```
+```bash
 lamda_mobile_testcases/
 │
-├── tests/          # IOS TEST CASES
-├── config/         # CLOUD CONFIGURATION FILES
-├── reports/        # GENERATED TEST REPORTS
-└── README.md       # PROJECT DOCUMENTATION
+├── tests/
+│   ├── ios_test_cases.py
+│   └── base_test.py
+│
+├── config/
+│   ├── capabilities.json
+│   └── cloud_config.py
+│
+├── reports/
+│   ├── logs/
+│   └── results/
+│
+└── README.md
 ```
 
 ---
 
-# INSTALLATION & SETUP
-
-## CLONE THE REPOSITORY
+# 🔐 ENVIRONMENT SETUP
 
 ```bash
+# CLONE REPOSITORY
 git clone https://github.com/your-username/lamda_mobile_testcases.git
-```
 
-## NAVIGATE TO PROJECT DIRECTORY
-
-```bash
+# MOVE INTO DIRECTORY
 cd lamda_mobile_testcases
-```
 
-## INSTALL DEPENDENCIES
-
-```bash
+# INSTALL DEPENDENCIES
 pip install -r requirements.txt
 ```
 
 ---
 
-# CONFIGURE CREDENTIALS
-
-SET YOUR LAMBDATEST CREDENTIALS:
+# 🔑 SET CLOUD CREDENTIALS
 
 ```bash
+# WINDOWS
 setx LT_USERNAME "your_username"
 setx LT_ACCESS_KEY "your_access_key"
+
+# MAC / LINUX
+export LT_USERNAME="your_username"
+export LT_ACCESS_KEY="your_access_key"
 ```
 
 ---
 
-# RUN TESTS
+# ▶ RUN TESTS
 
 ```bash
 python tests/ios_test_cases.py
 ```
 
-TEST EXECUTION RESULTS WILL BE AVAILABLE IN THE `reports/` DIRECTORY AND ON THE LAMBDATEST DASHBOARD.
+OUTPUT:
+
+```text
+✔ SESSION CREATED
+✔ TEST EXECUTED
+✔ DEVICE: IPHONE 14
+✔ IOS VERSION: 16+
+✔ STATUS: PASSED
+✔ REPORT GENERATED
+```
 
 ---
 
-# PROJECT HIGHLIGHTS
+# 📊 GITHUB STATS
 
-- AI-DRIVEN TEST AUTOMATION  
-- CLOUD-BASED REAL DEVICE TESTING  
-- SCALABLE TEST EXECUTION  
-- STRUCTURED AUTOMATION FRAMEWORK  
-- INDUSTRY-LEVEL MOBILE TESTING PRACTICES  
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&theme=tokyonight"/>
+</p>
 
 ---
 
-# AUTHOR
+# 👀 VISITOR COUNTER
 
-**SHRUTI SINHA**  
-COMPUTER SCIENCE ENGINEERING STUDENT  
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=YOUR-USERNAME&color=blue&style=for-the-badge"/>
+</p>
 
-SKILLS:  
-MOBILE AUTOMATION | APPIUM | CLOUD TESTING | PYTHON | JAVA | AI-ASSISTED TESTING  
+---
+
+# 💎 PROJECT HIGHLIGHTS
+
+```diff
++ AI-POWERED TEST CREATION
++ CLOUD REAL DEVICE TESTING
++ ENTERPRISE-READY AUTOMATION
++ STRUCTURED TEST FRAMEWORK
++ INDUSTRY STANDARD TOOLING
+```
+
+---
+
+# 👩‍💻 AUTHOR
+
+```text
+NAME: SHRUTI SINHA
+ROLE: COMPUTER SCIENCE ENGINEERING STUDENT
+SPECIALIZATION: MOBILE AUTOMATION + CLOUD TESTING
+TECH: PYTHON | JAVA | APPIUM | AI TESTING
+```
 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4E54C8,100:8F94FB&height=120&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3C72,100:2A5298&height=150&section=footer"/>
 </p>
