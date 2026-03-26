@@ -1,6 +1,6 @@
 <!-- ======================== ANIMATED HEADER ======================== --> more animinations without changing header and make more transitions
 
-<p align="center">hi
+<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=venom&color=0:1E3C72,100:2A5298&height=250&section=header&text=LAMBDA%20MOBILE%20TEST%20CASES%20(IOS)&fontSize=30&fontColor=ffffff&animation=fadeIn&fontAlignY=40"/>
 </p>
 
