@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=venom&color=0:1E3C72,100:2A5298&height=250&section=header&text=LAMBDA%20MOBILE%20TEST%20CASES%20(IOS)&fontSize=30&fontColor=ffffff&animation=fadeIn&fontAlignY=40"/>
 </p>
-hi
+
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=1000&color=00C6FF&center=true&vCenter=true&width=950&lines=AI+POWERED+IOS+TEST+AUTOMATION;KANEAi+GENERATED+TEST+CASES;EXECUTED+ON+LAMBDATEST+CLOUD;REAL+DEVICE+TESTING;APPIUM+%7C+XCUITEST+%7C+CLOUD+AUTOMATION"/>
 </p>
